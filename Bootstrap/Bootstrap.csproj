@@ -77,6 +77,7 @@
     <Content Include="bootstrap\js\bootstrap.bundle.min.js" />
     <Content Include="bootstrap\js\bootstrap.js" />
     <Content Include="bootstrap\js\bootstrap.min.js" />
+    <Content Include="CustomStyles.css" />
     <Content Include="index.html" />
     <Content Include="Web.config" />
   </ItemGroup>
