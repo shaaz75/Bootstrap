@@ -78,7 +78,13 @@
     <Content Include="bootstrap\js\bootstrap.js" />
     <Content Include="bootstrap\js\bootstrap.min.js" />
     <Content Include="CustomStyles.css" />
+    <Content Include="imageGallery.html" />
     <Content Include="imageGrid.html" />
+    <Content Include="images\gallery\1.jpg" />
+    <Content Include="images\gallery\2.jpg" />
+    <Content Include="images\gallery\3.jpg" />
+    <Content Include="images\gallery\4.jpg" />
+    <Content Include="images\gallery\5.jpg" />
     <Content Include="images\Run.jpeg" />
     <Content Include="index.html" />
     <Content Include="nestedRowsColumns.html" />
