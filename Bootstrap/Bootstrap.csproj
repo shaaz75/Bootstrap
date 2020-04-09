@@ -87,6 +87,7 @@
     <Content Include="images\gallery\5.jpg" />
     <Content Include="images\Run.jpeg" />
     <Content Include="index.html" />
+    <Content Include="listGroup.html" />
     <Content Include="nestedRowsColumns.html" />
     <Content Include="Web.config" />
   </ItemGroup>
