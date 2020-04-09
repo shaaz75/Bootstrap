@@ -5,3 +5,19 @@
 	text-align: center;
 	font-size: large
 }
+.sidebarContent {
+	background-color: silver;
+	text-align: center;
+	font-size: large;
+	min-height: 150px;
+	height:150px;
+	margin-bottom: 10px;
+}
+
+.mainContent {
+	background-color: silver;
+	text-align: center;
+	font-size: large;
+	min-height: 310px;
+	height:310px;
+}
