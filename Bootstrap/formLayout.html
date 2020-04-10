@@ -1,0 +1,110 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap Example</title>
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="CustomStyles.css" rel="stylesheet" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <div class="container">
+
+        <div class="row">
+            <div class="col-md-4">
+                <br />
+                <b>Without bootstrap</b>
+                <br />
+                <br />
+                <form>
+                    <div>
+                        <label for="txtUsername">Username</label>
+                        <input type="text" id="txtUsername" />
+                    </div>
+                    <div>
+                        <label for="txtPassword">Password</label>
+                        <input type="password" id="txtPassword" />
+                    </div>
+                    <button type="submit">Login</button>
+                </form>
+            </div>
+            <div class="col-md-4">
+                <br />
+                <b>Form-Group and Form-Control classes</b>
+                <br />
+                <br />
+                <form>
+                    <div class="form-group">
+                        <label for="txtUsername">Username</label>
+                        <input type="text" class="form-control" id="txtUsername" />
+                    </div>
+                    <div class="form-group">
+                        <label for="txtPassword">Password</label>
+                        <input type="password" class="form-control" id="txtPassword" />
+                    </div>
+                    <button type="submit" class="btn btn-primary">Login</button>
+                </form>
+            </div>
+
+
+        </div>
+        <hr />
+        <br />
+    <b>Form Inline class</b>
+        <br />
+        <br />
+        <div class="row">
+            <div class="col-md-12">
+                <form class="form-inline">
+                    <div class="form-group">
+                        <label for="txtUsername">Username</label>
+                        <input type="text" class="form-control" id="txtUsername" />
+                    </div>
+                    <div class="form-group">
+                        <label for="txtPassword">Password</label>
+                        <input type="password" class="form-control" id="txtPassword" />
+                    </div>
+                    <button type="submit" class="btn btn-primary">Login</button>
+                </form>
+            </div>
+        </div>
+
+        <hr />
+        <br />
+        <b>
+            Form Group and Row Classes</b>
+        <br />
+            <br />
+            <div class="row">
+                <div class="col-md-12">
+                    <form>
+                        <div class="form-group row">
+                            <label for="inputUserName" class="control-label col-sm-2">Username</label>
+                            <div class="col-sm-10">
+                                <input class="form-control" placeholder="Login Username"
+                                       type="text" id="inputUserName" />
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="inputPassword" class="control-label col-sm-2">Password</label>
+                            <div class="col-sm-10">
+                                <input class="form-control" placeholder="Login Password"
+                                       type="password" id="inputPassword" />
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <div class="col-sm-offset-2 col-sm-10">
+                                <button type="submit" class="btn btn-primary">Login</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+</div>
+
+</body>
+
+</html>
