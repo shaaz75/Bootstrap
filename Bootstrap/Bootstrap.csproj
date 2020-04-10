@@ -1719,6 +1719,7 @@
     <Content Include="images\Run.jpeg" />
     <Content Include="index.html" />
     <Content Include="listGroup.html" />
+    <Content Include="navComponent.html" />
     <Content Include="nestedRowsColumns.html" />
     <Content Include="tableClasses.html" />
     <Content Include="Web.config" />
