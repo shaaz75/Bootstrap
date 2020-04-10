@@ -1,0 +1,130 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap Example</title>
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="CustomStyles.css" rel="stylesheet" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        
+        <div class="row">
+            <div class="col-md-4">
+                <form>
+                    <div class="form-group">
+                        <label for="inputName">Name</label>
+                        <input class="form-control" type="text" id="inputName"
+                               placeholder="Full Name" />
+                    </div>
+                    <div class="form-group">
+                        <label for="inputDOB">Date of Birth</label>
+                        <input class="form-control" type="date" id="inputDOB" />
+                    </div>
+                    <div class="form-group">
+                        <label for="inputEmail">Email</label>
+                        <input class="form-control" type="email" id="inputEmail"
+                               placeholder="Email address" />
+                    </div>
+                    <div class="form-group">
+                        <label for="inputExperience">Work Experience</label>
+                        <input class="form-control" type="number" id="inputExperience"
+                               placeholder="Total experience in years" />
+                    </div>
+                    <div class="form-group">
+                        <label for="inputUrl">Personal Website</label>
+                        <input class="form-control" type="url" id="inputUrl"
+                               placeholder="Your website address" />
+                    </div>
+                    <button type="submit" class="btn btn-primary">Login</button>
+                </form>
+            </div>
+            <div class="col-md-4">
+                <div class="form-group">
+                    <label for="inputDescription">Product Description</label>
+                    <textarea class="form-control" id="inputDescription" rows="5"
+                              placeholder="Full Product Description"></textarea>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="checkbox">
+                    <label>
+                        <input type="checkbox" value="option1">
+                        Option 1
+                    </label>
+                </div>
+                <div class="checkbox">
+                    <label>
+                        <input type="checkbox" value="option2">
+                        Option 2
+                    </label>
+                </div>
+                <div class="checkbox disabled">
+                    <label>
+                        <input type="checkbox" value="option3" disabled>
+                        Option 3
+                    </label>
+                </div>
+            </div>
+
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <br />
+                <br />
+                <fieldset>
+                    <legend>
+                        Multiple selection
+                    </legend>
+                    <select multiple class="form-control">
+                        <option>Option 1</option>
+                        <option>Option 2</option>
+                        <option>Option 3</option>
+                        <option>Option 4</option>
+                        <option>Option 5</option>
+                    </select>
+                </fieldset>
+                
+            </div>
+            <div class="col-md-4">
+                <br />
+                <br />
+                <select class="form-control">
+                    <option>Option 1</option>
+                    <option>Option 2</option>
+                    <option>Option 3</option>
+                    <option>Option 4</option>
+                    <option>Option 5</option>
+                </select>
+            </div>
+            <div class="col-md-4">
+                <br />
+                <br />
+                <div class="radio">
+                    <label>
+                        <input type="radio" name="radioGroup" id="opt1" value="1">
+                        Option 1
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                        <input type="radio" name="radioGroup" id="opt2" value="2">
+                        Option 2
+                    </label>
+                </div>
+                <div class="radio disabled">
+                    <label>
+                        <input type="radio" name="radioGroup" id="opt3" value="3" disabled>
+                        Option 3
+                    </label>
+                </div>
+            </div>
+        </div>
+
+</body>
+
+</html>

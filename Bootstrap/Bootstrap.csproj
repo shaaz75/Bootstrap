@@ -1706,6 +1706,7 @@
     <Content Include="fontawesome\webfonts\fa-brands-400.svg" />
     <Content Include="fontawesome\webfonts\fa-regular-400.svg" />
     <Content Include="fontawesome\webfonts\fa-solid-900.svg" />
+    <Content Include="formControls.html" />
     <Content Include="formLayout.html" />
     <Content Include="icons.html" />
     <Content Include="imageGallery.html" />
