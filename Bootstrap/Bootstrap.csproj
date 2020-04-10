@@ -79,6 +79,7 @@
     <Content Include="bootstrap\js\bootstrap.min.js" />
     <Content Include="bootstrap\js\popper.min.js" />
     <Content Include="Card.html" />
+    <Content Include="collapsePlugin.html" />
     <Content Include="CustomStyles.css" />
     <Content Include="dropdown.html" />
     <Content Include="fontawesome\css\all.css" />
